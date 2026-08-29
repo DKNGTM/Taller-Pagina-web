@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Credencial de estudiante — Cursa</title>
+  <meta name="description" content="Credencial digital de estudiante de la plataforma de cursos en linea Cursa.">
+  <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<!-- ===================================================================
+     ARCHIVO ENTREGADO. NO SE MODIFICA.
+     Solo puedes cambiar tus datos personales (nombre y matricula).
+     Todo el diseno se hace desde css/estilos.css.
+     =================================================================== -->
+
+<header class="cabecera">
+  <a class="marca" href="#credencial">Cursa</a>
+  <nav class="menu" aria-label="Principal">
+    <ul class="menu__lista">
+      <li><a class="menu__enlace menu__enlace--activo" href="#credencial">Credencial</a></li>
+      <li><a class="menu__enlace" href="#uso">Como se usa</a></li>
+      <li><a class="menu__enlace" href="#ayuda">Ayuda</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main class="contenido">
+
+  <h1 class="titulo-pagina">Tu credencial de estudiante</h1>
+
+  <article class="carnet" id="credencial">
+
+    <span class="carnet__estado">Vigente</span>
+
+    <div class="carnet__banda">
+      <p class="carnet__institucion">Cursa &middot; Plataforma de cursos</p>
+      <p class="carnet__periodo">Periodo 2026-2</p>
+    </div>
+
+    <div class="carnet__cuerpo">
+
+      <figure class="carnet__foto">
+        <img src="img/foto.jpg" alt="Fotografia de carnet de la estudiante Ana Ruiz" width="240" height="300">
+        <figcaption class="carnet__pie-foto">Estudiante</figcaption>
+      </figure>
+
+      <div class="carnet__datos">
+        <h2 class="carnet__nombre">Camilo Gelis Jinete</h2>
+        <p class="carnet__rol">Programa de Desarrollo Web</p>
+
+        <dl class="ficha">
+          <dt class="ficha__clave">Matricula</dt>
+          <dd class="ficha__valor">CU-2026-0148</dd>
+
+          <dt class="ficha__clave">Modulo</dt>
+          <dd class="ficha__valor">2 &mdash; CSS</dd>
+
+          <dt class="ficha__clave">Vigencia</dt>
+          <dd class="ficha__valor">31 de diciembre de 2026</dd>
+        </dl>
+
+        <ul class="etiquetas">
+          <li class="etiqueta">HTML</li>
+          <li class="etiqueta etiqueta--activa">CSS</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <footer class="carnet__pie">
+      <p class="carnet__aviso">Documento personal e intransferible.</p>
+    </footer>
+
+  </article>
+
+  <section class="bloque" id="uso">
+    <h2 class="bloque__titulo">Como se usa</h2>
+    <ul class="lista">
+      <li class="lista__item">Presentala al entrar a las sesiones en vivo.</li>
+      <li class="lista__item">Sirve para pedir el descuento del plan Estudiante.</li>
+      <li class="lista__item">Caduca al terminar el periodo indicado en la banda.</li>
+    </ul>
+  </section>
+
+  <section class="bloque" id="ayuda">
+    <h2 class="bloque__titulo">Perdiste tu credencial</h2>
+    <p class="bloque__texto">Escribe a la coordinacion del curso y te emitimos una nueva
+    en menos de 24 horas.</p>
+    <p><a class="boton" href="#credencial">Volver a la credencial</a></p>
+  </section>
+
+</main>
+
+<footer class="pie">
+  <p class="pie__legal">Cursa &middot; Curso de Desarrollo Web 2026-2</p>
+</footer>
+
+</body>
+</html>

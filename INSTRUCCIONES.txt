@@ -1,0 +1,85 @@
+===============================================================
+ EVALUACION - MODULO 2: CSS
+ Curso Desarrollo Web 2026-2 - Individual - 40 MINUTOS
+===============================================================
+
+ Nombre: Camilo Gelis Jinete
+
+
+ DONDE ESTA EL ENUNCIADO
+ -----------------------
+ Los 13 criterios que se califican, con su puntuacion y la
+ leccion de la que sale cada uno, estan en el ENUNCIADO que te
+ reparte el docente. Leelo antes de escribir nada: son 5 minutos
+ y sin el no sabes que se te pide.
+
+ Este archivo es solo el recordatorio de las reglas.
+ Los 13 pasos estan tambien, en orden y como comentarios, dentro
+ de css/estilos.css.
+
+
+ EL RELOJ
+ --------
+ 5 min   leer el enunciado y mirar credencial.html
+ 30 min  escribir CSS
+ 5 min   revisar con la lista del final
+
+ No te atasques en un criterio. Cada uno vale poco por separado;
+ dejar tres a medias resta mas que dejar uno sin empezar.
+
+
+ LA REGLA: CERO HTML
+ -------------------
+ credencial.html esta BLOQUEADO. No se toca: no anadas, quites ni
+ renombres elementos, clases o atributos. Si algo no queda en su
+ sitio, se arregla desde el CSS o no se arregla.
+
+ Escribes UN SOLO archivo: css/estilos.css
+
+ Si puedes cambiar tu nombre y tu matricula en la credencial.
+ Eso no cuenta como modificar el HTML.
+
+
+ QUE ENTREGAS
+ ------------
+ apellido-nombre/
+   credencial.html      tal como te lo di
+   css/estilos.css      lo que escribes
+   img/foto.jpg         ya incluida
+
+
+===============================================================
+ PROHIBIDO
+===============================================================
+
+ Modificar el HTML ................................. -10 c/u
+ Atributo style="..." o bloque <style> ............. -10
+ Framework o CDN de estilos (Bootstrap, Tailwind) .. -20
+ !important ......................................... -5 c/u
+ Selector de #id para dar estilo .................... -5 c/u
+
+ Las propiedades que no se han visto en clase no puntuan: se
+ corrige con las lecciones 2.1 a 2.20 delante.
+
+ INTEGRIDAD ACADEMICA
+ La entrega es individual y de autoria propia. No se permite el
+ uso de herramientas de inteligencia artificial generativa. El
+ docente verifica la autoria del codigo entregado y puede pedirte
+ que expliques cualquier regla que hayas escrito. El
+ incumplimiento anula la evaluacion.
+
+
+===============================================================
+ LOS 5 MINUTOS FINALES: LISTA DE COMPROBACION
+===============================================================
+
+ [ ] Estrecho la ventana: NO aparece barra de scroll horizontal.
+ [ ] La ensancho: el menu pasa a fila y la foto se coloca al
+     lado de los datos.
+ [ ] Pulso Tab varias veces: SIEMPRE se ve donde esta el foco.
+ [ ] Paso el raton por el boton y por el menu: cambian, y el
+     cambio es suave.
+ [ ] Miro la tarjeta: parece un carnet. El sello "Vigente" esta
+     en la esquina de la tarjeta, no de la pantalla.
+ [ ] Busco en mi CSS: ninguna linea con !important, ninguna que
+     empiece por #.

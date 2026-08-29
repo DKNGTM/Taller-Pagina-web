@@ -1,0 +1,162 @@
+/* ============================================================
+   Cursa — Evaluación Módulo 2 (CSS) · 40 minutos
+   Nombre: ____________________________________
+
+   ESTE ES EL ÚNICO ARCHIVO QUE ESCRIBES.
+   credencial.html está bloqueado: no se toca.
+
+   Trabaja en este orden. Los números son los de la rúbrica.
+   ============================================================ */
+
+
+/* --- 1. Reinicio: box-sizing con * ------------------------ */
+* {
+   box-sizing: border-box;
+   margin: 0;
+}
+
+/* --- 2. Base: fuente, line-height, color ------------------ */
+
+body {
+   font-family: sans-serif, 'Segoe UI', Arial;
+   line-height: 1.4;
+   color: lightcoral;
+}
+/* --- 3. Contenedor .contenido: max-width + centrado ------- */
+
+.contenido {
+   max-width: 600px;
+   margin: 0 auto;
+   padding: 5px;
+}
+
+/* --- 4. La foto no desborda ni se deforma ----------------- */
+.carnet_foto {
+   max-width: 100%;
+   height: auto;
+}
+
+/* --- 5. Cabecera con flex --------------------------------- */
+.cabecera {
+   display: flex;
+   justify-content: space-between;
+}
+
+/* --- 6. Menú: sin viñetas, en fila, con gap --------------- */
+
+.menu__lista {
+   display: flex;
+   flex-direction: row;
+   gap: 15px;
+   list-style: none;
+}
+
+.menu__enlace {
+   padding: 15px;
+   text-decoration: none;
+}
+
+/* --- 7. La tarjeta .carnet: ancho, franja, bordes --------- */
+.carnet {
+   max-width: 420px;
+   border: 10px  solid black;
+   border-radius: 5px;
+   text-align: center;
+}
+
+.carnet__banda {
+   background-color: orange;
+   color: green;
+}
+
+
+/* --- 8. Sello "Vigente" en la esquina de la tarjeta ------- */
+
+
+.carnet__estado {
+   position: absolute;
+   right: 10px;
+   z-index: 1;
+}
+
+.carnet {
+   position: relative;
+   z-index: 0;
+}
+
+/* --- 9. La ficha de datos en grid de dos columnas --------- */
+.ficha {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   gap: 5px;
+}
+
+
+/* --- 10. Las etiquetas en fila ---------------------------- */
+.etiquetas {
+   display: flex;
+   list-style: none;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.etiqueta--activa {
+   color: goldenrod;
+}
+
+/* --- 11. :hover con transition ---------------------------- */
+
+.boton {
+   color: red;
+   transition: color 0.2 ease-out;
+}
+
+.boton:hover {
+   color: lightgreen;
+}
+
+.menu__enlace {
+   color: red;
+   transition: color 0.2 ease-out;
+}
+
+.menu__enlace:hover {
+   color: lightgreen;
+}
+
+
+/* --- 12. :focus-visible ----------------------------------- */
+
+.menu__enlace:focus-visible {
+   outline: 3px solid purple;
+}
+
+.boton:focus-visible {
+   outline: 3px solid purple;
+}
+
+.marca:focus-visible {
+   outline: 3px solid purple;
+}
+
+/* --- 13. Media query (SIEMPRE al final) ------------------- */
+
+@media (min-width: 800px) {
+   .menu__lista {
+      flex-direction: row;
+      gap: 12px;
+   }
+
+   .carnet__cuerpo {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        padding: 20px;
+    }
+    
+    .carnet {
+      max-width: 600px;
+    }
+
+
+}
